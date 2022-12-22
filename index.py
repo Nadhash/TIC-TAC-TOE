@@ -1,5 +1,6 @@
 from tkinter import*
 import random
+#this is my first project
 
 def next_turn(row, column):
 
@@ -106,6 +107,3 @@ for row in range(3):
                                                                                                          column=column:next_turn(row,column))
         buttons[row][column].grid(row=row,column=column)
 window.mainloop()
-
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
